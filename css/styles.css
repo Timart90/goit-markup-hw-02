@@ -1,0 +1,24 @@
+/* color body- #FFFFFF
+color button and WEB (Iris) - #4D5AE5
+contacts and <h> Teg (Navyblue)- #2E2F42
+text body (slate) - #434455 
+bottun hover(Ocean) -#404BBF
+background: #E5E5E5;
+ */
+
+:root {
+  --background-color: #ffffff;
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+}
+
+/* ---Body--- */
+
+body {
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+li {
+  list-style-type: none;
+}
