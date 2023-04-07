@@ -61,6 +61,9 @@ body {
 .site-nav .link:focus {
   color: var(--ocean);
 }
+.lists {
+  font-style: normal;
+}
 
 .contacts.link {
   color: var(--primary-text-color);
@@ -172,7 +175,8 @@ body {
 /* Portfolio */
 
 .buttons {
-  font-family: "Roboto", sans-serif;
+  color: var(--button-web);
+  border-color: var(--cloud);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -180,11 +184,15 @@ body {
 }
 
 .buttons:hover {
-  background-color: var(--ocean);
+  background-color: var(--primary-white-color);
 }
 .buttons:focus {
   color: var(--primary-white-color);
   background-color: var(--ocean);
+}
+
+.list {
+  list-style: none;
 }
 
 /* --FOOTER-- */
