@@ -49,7 +49,7 @@ body {
 
 /* Site Nav */
 
-.site-nav .link {
+.nav.link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -57,8 +57,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav.link:hover,
+.nav.link:focus {
   color: var(--ocean);
 }
 
@@ -76,8 +76,8 @@ body {
   text-decoration: none;
 }
 
-.contacts:hover,
-.contacts:focus {
+.box.link:hover,
+.box.link:focus {
   color: var(--ocean);
 }
 
@@ -178,15 +178,16 @@ body {
 .buttons {
   font-family: "Roboto", sans-serif;
   color: var(--button-web);
-  border-color: var(--cloud);
+  background-color: var(--cloud);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .buttons:hover {
-  background-color: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 .buttons:focus {
   color: var(--primary-white-color);
